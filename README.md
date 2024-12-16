@@ -1,11 +1,12 @@
-#About This Project
+# About The Project
+
 * It is a project for my UX Design and Responsive Website.
 * I used Visual Code 2 to build the entire project.
 * I have a pet bunny so I thought it would be great to build for something I care about!
 
 
 
-##The MIT License (MIT)
+## The MIT License (MIT)
 
 Copyright (c) 2024-2025 Kazarina Liao
 
