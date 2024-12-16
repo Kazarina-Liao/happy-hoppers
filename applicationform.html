@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Hoppers</title>
+    <link rel="stylesheet" href="happyhoppersstyle.css">
+</head>
+
+ <!-- Navbar -->
+   <header>
+    <div class="header-container">
+        <img src="image/logo.png" alt="Happy Hoppers Logo" class="logo">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="happyhoppersindex.html">Home</a></li>
+                <li><a href="searchpage.html">Adopt</a></li>
+                <li><a href="aboutus.html#get-involved">Get Involved</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+</header>
+
+<!--form-->
+<section class="form">
+    <h1>Adoption Application Form</h1>
+    <div class="form-container">
+        <form>
+            <h2>Personal Information</h2>
+            <label for="name">First and Last Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="age">Age:</label>
+            <select id="age-select">
+                <option value="18-21">18-21</option>
+                <option value="22-25">22-25</option>
+                <option value="26-30">26-30</option>
+                <option value="30+">30+</option>
+            </select>
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required>
+
+            <label for="job">Occupation:</label>
+            <input type="text" name="job" id="job" required>
+            
+            <label for="bunny-name">Name of the bunny you wish to adopt:</label>
+            <input type="text" name="bunny-name" id="bunny-name" required>
+            
+            <h2>Home Address</h2>
+            <label for="street">Street:</label>
+            <input type="text" name="street" id="street" required>
+            
+            <label for="unit">Unit/Apt. Number:</label>
+            <input type="text" name="unit" id="unit">
+            
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" required>
+            
+            <label for="region">Region:</label>
+            <input type="text" name="region" id="region" required>
+            
+            <label for="postal">Postal Code:</label>
+            <input type="text" name="postal" id="postal" required>
+            
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state" required>
+            
+            <h2>When can you meet with us in person?</h2>
+            <label for="first-availability-date">First Availability:</label>
+            <input type="date" id="first-availability-date" name="date" required>
+            <input type="time" id="first-availability-time" name="time" required>
+            
+            <label for="second-availability-date">Second Availability:</label>
+            <input type="date" id="second-availability-date" name="date" required>
+            <input type="time" id="second-availability-time" name="time" required>
+            
+            <button class="submit-button">Submit</button>    
+        </form>
+    </div>
+</section>
+
+
+ <!-- Footer Section -->
+ <footer class="footer-container">
+    <div class="footer-contact">
+        <h3>HAPPY HOPS RABBIT SOCIETY</h3>
+        <p>321 Washington Street, Suite B</p>
+        <p>Phone: 858-073-1234</p>
+        <p>HOURS OF HOPPERATION: Mon-Sun: 11am-4pm | Adoptions & Visits: Appointment Only</p>
+    </div>
+    <div class="footer-follow">
+        <h3>FOLLOW US</h3>
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://instagram.com">Instagram</a> 
+        <a href="https://twitter.com">Twitter</a>
+        <a href="https://youtube.com">Youtube</a>
+    </div>
+</footer>
+</section>    
+
+</html>
